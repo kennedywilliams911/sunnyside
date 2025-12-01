@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- main -->
+    <div class="h-[100vh] overflow-x-hidden">
+      <div
+        class="bg-[url(./images/desktop/image-header.jpg)] h-[500px] bg-cover bg-center bg-no-repeat text-[var(--White)] font-[Barlow]"
+      >
+        <div class="flex p-8 place-content-between">
+          <div class="font-[800] text-[18px] font-[Barlow]">
+            <p>sunnyside</p>
+          </div>
+
+          <div class="flex gap-x-6 font-[700]">
+            <p>About</p>
+            <p>Services</p>
+
+            <p>Projects</p>
+
+            <div
+              class="bg-[var(--White)] text-[black] w-[100px] h-[30px] flex justify-center items-center rounded-2xl"
+            >
+              <p>CONTACT</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex justify-center items-center font-[900] text-[40px] font-[Fraunces] pt-4"
+        >
+          <p>WE ARE CREATIVES</p>
+        </div>
+
+        <div class="flex justify-center pt-4">
+          <img src="./images/icon-arrow-down.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="md:h-[380px] h-[650px] flex flex-col md:flex md:flex-row">
+        <div class="md:w-[50%] md:h-[100%] h-[50%] w-[100%] flex">
+          <div class="p-15 flex flex-col gap-y-8">
+            <p class="font-[900] font-[Fraunces] text-[20px]">
+              Transform your <br />
+              brand
+            </p>
+
+            <p class="font-[Barlow]">
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your clients through compelling visuals
+              that do most of the marketing for you.
+            </p>
+
+            <p class="font-[900] font-[Fraunces] text-[15px]">LEARN MORE</p>
+          </div>
+        </div>
+
+        <div
+          class="md:w-[50%] md:h-[100%] h-[50%] w-[100%] md:bg-[url(./images/desktop/image-transform.jpg)] bg-no-repeat bg-center bg-cover bg-[url(./images/mobile/image-transform.jpg)]"
+        ></div>
+      </div>
+
+      <div class="md:h-[380px] h-[650px] md:flex md:flex-row flex flex-col">
+        <div
+          class="md:w-[50%] md:h-[100%] h-[50%] w-[100%] flex md:bg-[url(./images/desktop/image-stand-out.jpg)] bg-no-repeat bg-center bg-cover bg-[url(./images/mobile/image-stand-out.jpg)]"
+        ></div>
+
+        <div class="md:w-[50%] md:h-[100%] flex">
+          <div class="p-15 flex flex-col gap-y-8">
+            <p class="font-[900] font-[Fraunces] text-[20px]">
+              Stand out to the right audience
+            </p>
+
+            <p class="font-[Barlow]">
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we’ll build and
+              extend your brand in digital places.
+            </p>
+
+            <p class="font-[900] font-[Fraunces] text-[15px]">LEARN MORE</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="md:h-[450px] h-[1200px] flex md:flex-row flex-col">
+        <div
+          class="md:bg-[url(./images/desktop/image-graphic-design.jpg)] md:w-[100%] md:h-[100%] h-[100%] bg-no-repeat bg-contain bg-cover bg-[url(./images/mobile/image-graphic-design.jpg)] flex flex-col items-center justify-end p-12"
+        >
+          <p class="font-[900] font-[Fraunces] text-[20px]">Graphic design</p>
+          <p>
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </div>
+
+        <div
+          class="md:bg-[url(./images/desktop/image-photography.jpg)] md:w-[100%] md:h-[100%] h-[100%] bg-no-repeat bg-contain bg-cover bg-[url(./images/mobile/image-photography.jpg)] flex flex-col items-center justify-end p-12"
+        >
+          <p class="font-[900] font-[Fraunces] text-[20px]">Photography</p>
+          <p>
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="md:h-[150px] h-[100px] bg-[var(--white)] flex justify-center pt-20"
+      >
+        <div class="flex font-[Fraunces] font-[900]">
+          <p>CLIENT TESTIMONIALS</p>
+        </div>
+      </div>
+
+      <div class="flex flex-col md:flex-row gap-x-6 p-15">
+        <div
+          class="flex flex-col items-center text-center justify-center gap-y-6 m-10"
+        >
+          <img
+            class="w-[50px] rounded-4xl"
+            src="./images/image-emily.jpg"
+            alt=""
+          />
+          <p class="font-[Barlow] text-[var(--Grey-600)]">
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <p class="font-[900] font-[Fraunces] text-[15px]">Emily R.</p>
+          <p class="font-[Barlow] text-[var(--Grey-600)]">Marketing Director</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center gap-y-6 m-10">
+          <img
+            class="w-[50px] rounded-4xl"
+            src="./images/image-thomas.jpg"
+            alt=""
+          />
+          <p class="font-[Barlow] text-[var(--Grey-600)]">
+            Sunnyside’s enthusiasm coupled with their keen interest in our
+            brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <p class="font-[900] font-[Fraunces] text-[15px]">Thomas S.</p>
+          <p class="font-[Barlow] text-[var(--Grey-600)]">
+            Chief Operating Officer
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center text-center gap-y-6 m-10">
+          <img
+            class="w-[50px] rounded-4xl"
+            src="./images/image-jennie.jpg"
+            alt=""
+          />
+          <p class="font-[Barlow] text-[var(--Grey-600)]">
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended!
+          </p>
+          <p class="font-[900] font-[Fraunces] text-[15px]">Jennie F.</p>
+          <p class="font-[Barlow] text-[var(--Grey-600)]">Business Owner</p>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap h-[4 00px]">
+        <div
+          class="md:bg-[url(./images/desktop/image-gallery-milkbottles.jpg)] w-1/2 md:w-1/4 bg-no-repeat bg-cover bg-center bg-[url(./images/mobile/image-gallery-milkbottles.jpg)]"
+        ></div>
+
+        <div
+          class="md:bg-[url(./images/desktop/image-gallery-orange.jpg) w-1/2 md:w-1/4 bg-no-repeat bg-cover bg-center bg-[url(./images/mobile/image-gallery-orange.jpg)]"
+        ></div>
+
+        <div
+          class="md:bg-[url(./images/desktop/image-gallery-cone.jpg)] w-1/2 md:w-1/4 bg-no-repeat bg-cover bg-center bg-[url(./images/mobile/image-gallery-cone.jpg)]"
+        ></div>
+
+        <div
+          class="md:bg-[url(./images/desktop/image-gallery-sugarcubes.jpg)] w-1/2 md:w-1/4 bg-no-repeat bg-cover bg-center bg-[url(./images/mobile/image-gallery-sugar-cubes.jpg)]"
+        ></div>
+      </div>
+
+      <!-- footer -->
+
+      <div
+        class="h-[300px] bg-[var(--Green-500)] flex flex-col items-center p-15 font-[Barlow]"
+      >
+        <div
+          class="font-[900] text-[20px] text-[var(--Green-800)] font-[Barlow]"
+        >
+          <p>sunnyside</p>
+        </div>
+
+        <div class="flex gap-x-6 p-10 font-[600]">
+          <p>About</p>
+          <p class="text-[white]">Services</p>
+          <p>Projects</p>
+        </div>
+
+        <div class="flex gap-x-6">
+          <img src="./images/icon-facebook.svg" alt="" />
+          <img src="./images/icon-instagram.svg" alt="" />
+          <img src="./images/icon-twitter.svg" alt="" />
+          <img src="./images/icon-pinterest.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
